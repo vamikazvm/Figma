@@ -1,14 +1,111 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #cfcabffa;
+
 }
+
+
+.container {
+    height: 524px;
+    width: 1003px;
+    margin: 0 auto;
+
+
+}
+
+.box0 h1 {
+    font-size: 33px;
+    margin-right: 90px;
+}
+
+.box0 {
+    width: 231.89px;
+    Height: 231.89px;
+}
+
+.box0 p {
+    color: #6e6a6a;
+    font-size: 14px;
+
+
+}
+
+.box {
+    width: 231.89px;
+    Height: 231.89px;
+    display: flex;
+    position: relative;
+    right: 80px;
+}
+
+.box img {
+    Width: 181.92px;
+    Height: 183.48px;
+    background-color: blue;
+
+}
+
+.box1 {
+    margin: 20px;
+}
+
+.box1 img {
+    margin-left: 60px;
+
+}
+
+.box1 p {
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+}
+
+.box2 {
+    margin-top: 20px;
+
+
+}
+
+.box2 img {
+    margin-left: 20px;
+}
+
+.box2 p {
+    font-size: 15px;
+
+
+
+}
+
+.box3 {
+    margin-top: 20px;
+
+
+}
+
+.box3 p {
+    font-size: 15px;
+
+    margin-left: 0px;
+}
+
+.box4 {
+    margin-top: 20px;
+
+}
+
+.box4 p {
+    font-size: 15px;
+
+    margin-left: 0px;
+}
+
 main {
 
 
     width: 1351px;
     height: 783px;
     margin: 0 auto;
-background-color: white;
+    background-color: white;
 }
 
 h1 {
@@ -17,25 +114,22 @@ h1 {
 
 .cards {
     display: flex;
-
-
+    width: 300px;
+    height: 370px;
 
 }
 
-.card1 {
+.cards img {
     width: 300px;
-    height: 370px;
+    height: 226px;
+}
+
+.card1 {
+
     margin-left: 38px;
     margin-right: 25px;
 }
 
-.card1 img {
-
-
-    width: 300px;
-    height: 226px;
-
-}
 
 p {
     width: 243px;
@@ -48,7 +142,7 @@ p {
 }
 
 button {
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -62,45 +156,25 @@ button {
 }
 
 .card2 {
-    width: 300px;
-    height: 370px;
+
 
     margin-right: 25px;
 }
 
-.card2 img {
-
-
-    width: 300px;
-    height: 226px;
-}
 
 .card3 {
-    width: 300px;
-    height: 370px;
+
     margin-right: 25px;
 }
 
-.card3 img {
-
-
-    width: 300px;
-    height: 226px;
-}
 
 .card4 {
-    width: 300px;
-    height: 370px;
+
 
     margin-right: 38px;
 }
 
-.card4 img {
 
-    width: 300px;
-    height: 226px;
-
-}
 
 .btn {
     height: 43px;
@@ -121,4 +195,22 @@ button {
     letter-spacing: 0.275px;
     color: #FFFFFF;
 
+}
+
+.btn1 {
+    height: 43px;
+    width: 155px;
+    background: #227840;
+    border: 1.5px solid #227840;
+    border-radius: 6px;
+}
+
+.btn1 p {
+    color: white;
+    font-style: normal;
+   padding-top:5px ;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.275px;
 }
