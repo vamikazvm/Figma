@@ -1,0 +1,111 @@
+.card {
+
+    width: 231.89px;
+    Height: 231.89px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card img {
+    Width: 181.92px;
+    Height: 183.48px;
+    margin: 20px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.btn {
+    background: #227840;
+    height: 43px;
+    width: 155px;
+    border-radius: 4px;
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.275px;
+}
+
+.content {
+    text-align: left;
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+main h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 300px;
+    height: 370px;
+    margin-left: 38px;
+    margin-right: 25px;
+    position: relative;
+    top: 30px;
+}
+
+.card1 img {
+    width: 300px;
+    height: 226px;
+}
+
+.cont {
+    text-align: left;
+    position: relative;
+
+}
+
+button {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 87px;
+    height: 30px;
+    font-size: 12px;
+    color: grey;
+
+}
+
+.bt {
+
+    height: 43px;
+    width: 122px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    background: #227840;
+    border: 1.5px solid #227840;
+    border-radius: 6px;
+}
+
+.bt p {
+    font-size: 11px;
+    line-height: 19px;
+    margin-left: 30px;
+    letter-spacing: 0.275px;
+    color: #FFFFFF;
+
+}
