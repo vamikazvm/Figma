@@ -1,0 +1,179 @@
+#space{
+    width: 850px;
+    height: 548px;
+    margin: 0 auto;
+    display: flex;
+
+  
+    
+}
+.item1 img{
+    width: 600px;
+    height: 548px;
+   
+
+}
+.item2{
+    width: 250px;
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+}
+.item3 img{
+    width: 250px;
+    height: 274px;
+  
+}
+.item4 img{
+    width: 250px;
+    height: 274px;
+    position: relative;
+    bottom: 5px;
+    
+}
+
+#space1{
+    width: 850px;
+    height: 548px;
+    margin: 0 auto;
+    display: flex; 
+}
+.item5 img{
+width: 425px;
+height: 548px;
+}
+.item6 img{
+width: 425px;
+height: 548px;
+}
+#space2{
+    width: 850px;
+    height: 548px; 
+    display: flex;
+    margin: 0 auto;
+}
+.item7 img{
+    width: 850px;
+    height: 548px; 
+}
+.card {
+
+    width: 231.89px;
+    Height: 231.89px;
+   border: 2px solid black;
+   margin-left: 26.11px;
+    text-align: center;
+}
+
+
+
+.container {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+   margin-top: 50px;
+}
+
+.card img {
+    Width: 181.92px;
+    Height: 183.48px;
+
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.btn {
+    background: #227840;
+    height: 43px;
+    width: 155px;
+    border-radius: 4px;
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.275px;
+}
+
+.content p{
+    text-align: left;
+    position: relative;
+    top: 38.11px;
+    
+}
+main{
+   margin: 20px;
+   padding: 20px;
+}
+main h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 33px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 370px;
+    margin-left: 38px;
+    margin-right: 25px;
+    position: relative;
+    top: 96px;
+}
+
+.card1 img {
+    width: 300px;
+    height: 226px;
+}
+
+.cont {
+    text-align: left;
+    position: relative;
+
+}
+
+button {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 87px;
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    top: 26px;
+    color: grey;
+
+}
+
+.bt {
+
+    height: 43px;
+    width: 122px;
+    margin: 0 auto;
+    position: relative;
+    top: 188px;
+    background: #227840;
+    border: 1.5px solid #227840;
+    border-radius: 6px;
+}
+
+.bt p {
+    font-size: 11px;
+    line-height: 19px;
+    margin-left: 30px;
+    letter-spacing: 0.275px;
+    color: #FFFFFF;
+
+}
+
+
