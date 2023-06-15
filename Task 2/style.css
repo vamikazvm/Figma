@@ -1,148 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Asap', sans-serif;
+    color: rgb(2, 2, 2);
 
 }
-
 
 .container {
-    height: 524px;
-    width: 1003px;
+    min-height: 200px;
+    max-width: 1200px;
     margin: 0 auto;
-
-
-}
-
-.box0 h1 {
-    font-size: 33px;
-    margin-right: 90px;
-}
-
-.box0 {
-    width: 231.89px;
-    Height: 231.89px;
-}
-
-.box0 p {
-    color: #6e6a6a;
-    font-size: 14px;
-
-
-}
-
-.box {
-    width: 231.89px;
-    Height: 231.89px;
     display: flex;
-    position: relative;
-    right: 80px;
-}
-
-.box img {
-    Width: 181.92px;
-    Height: 183.48px;
-    background-color: blue;
-
-}
-
-.box1 {
-    margin: 20px;
-}
-
-.box1 img {
-    margin-left: 60px;
-
-}
-
-.box1 p {
-    font-size: 15px;
-    position: relative;
-    left: 40px;
-}
-
-.box2 {
-    margin-top: 20px;
-
-
-}
-
-.box2 img {
-    margin-left: 20px;
-}
-
-.box2 p {
-    font-size: 15px;
-
-
-
-}
-
-.box3 {
-    margin-top: 20px;
-
-
-}
-
-.box3 p {
-    font-size: 15px;
-
-    margin-left: 0px;
-}
-
-.box4 {
-    margin-top: 20px;
-
-}
-
-.box4 p {
-    font-size: 15px;
-
-    margin-left: 0px;
-}
-
-main {
-
-
-    width: 1351px;
-    height: 783px;
-    margin: 0 auto;
-    background-color: white;
-}
-
-h1 {
-    text-align: center;
-}
-
-.cards {
-    display: flex;
-    width: 300px;
-    height: 370px;
-
-}
-
-.cards img {
-    width: 300px;
-    height: 226px;
-}
-
-.card1 {
-
-    margin-left: 38px;
-    margin-right: 25px;
-}
-
-
-p {
-    width: 243px;
-    height: 38px;
-    margin-left: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 140px;
 }
 
 button {
-
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -151,44 +23,100 @@ button {
     height: 30px;
     font-size: 12px;
     color: grey;
-    margin-left: 20px;
-    margin-top: 20px;
 }
-
-.card2 {
-
-
-    margin-right: 25px;
-}
-
-
-.card3 {
-
-    margin-right: 25px;
-}
-
-
-.card4 {
-
-
-    margin-right: 38px;
-}
-
-
 
 .btn {
     height: 43px;
     width: 122px;
-    margin-top: 20px;
-    margin-left: 615px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
     background: #227840;
     border: 1.5px solid #227840;
     border-radius: 6px;
+}
 
+.main {
+    min-height: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.col {
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.col h1 {
+    font-size: 28px;
+    position: relative;
+    left: 70px;
+}
+
+.col h6 {
+    position: relative;
+    left: 70px;
+}
+
+.col p {
+    font-size: 0.825rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
 
 }
 
-.btn p {
+
+.col img {
+    width: 90%;
+    height: 300px;
+    align-items: center;
+}
+
+.col p::first-line {
+    font-weight: 700;
+}
+
+
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+    .col {
+        width: 45%;
+    }
+
+    .container {
+        padding-top: 40px;
+    
+
+}
+}
+
+
+/* Mobile View */
+@media (max-width: 400px) {
+
+    .col {
+        width: 100%;
+    }
+
+}
+
+.bt {
+
+    height: 43px;
+    width: 122px;
+    margin: 0 auto;
+    background: #227840;
+    border: 1.5px solid #227840;
+    border-radius: 6px;
+}
+
+.bt p {
     font-size: 11px;
     line-height: 19px;
     margin-left: 30px;
@@ -197,20 +125,17 @@ button {
 
 }
 
-.btn1 {
+.btn {
     height: 43px;
-    width: 155px;
+    width: 150px;
     background: #227840;
     border: 1.5px solid #227840;
     border-radius: 6px;
 }
 
-.btn1 p {
-    color: white;
-    font-style: normal;
-   padding-top:5px ;
-    font-weight: 800;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 0.275px;
+.btn p {
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+    color: #FFFFFF;
 }

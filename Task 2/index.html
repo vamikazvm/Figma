@@ -4,51 +4,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
+    <style>
+        body {
+            font-family: 'Asap', sans-serif;
+            color: rgb(2, 2, 2);
+
+        }
+
+        .container {
+            min-height: 200px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding-top: 140px;
+        }
+
+        button {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            width: 87px;
+            height: 30px;
+            font-size: 12px;
+            color: grey;
+        }
+
+        .btn {
+            height: 43px;
+            width: 122px;
+            margin: 0 auto;
+            position: relative;
+            top: 30px;
+            background: #227840;
+            border: 1.5px solid #227840;
+            border-radius: 6px;
+        }
+
+        .main {
+            min-height: 200px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+
+        .col {
+            width: 20%;
+            margin-bottom: 40px;
+        }
+
+        .col h1 {
+            font-size: 28px;
+            position: relative;
+            left: 70px;
+        }
+
+        .col h6 {
+            position: relative;
+            left: 70px;
+        }
+
+        .col p {
+            font-size: 0.825rem;
+            padding: 20px 25px;
+            line-height: 1.25rem;
+
+        }
+
+
+        .col img {
+            width: 90%;
+            height: 300px;
+            align-items: center;
+        }
+
+        .col p::first-line {
+            font-weight: 700;
+        }
+
+
+
+
+
+
+        /* Tablet View */
+        @media (max-width: 768px) {
+
+            .col {
+                width: 45%;
+            }
+
+            .hide-desktop-only {
+                display: block;
+            }
+
+
+            .header-container {
+                position: relative;
+            }
+
+            .container {
+                padding-top: 40px;
+            }
+
+
+
+            .mybutton {
+                margin-left: 0;
+            }
+
+
+
+
+
+
+        }
+
+
+
+        /* Mobile View */
+        @media (max-width: 400px) {
+
+            .col {
+                width: 100%;
+            }
+
+
+            .hide-mobile {
+                display: none;
+            }
+
+
+
+
+        }
+
+        .bt {
+
+            height: 43px;
+            width: 122px;
+            margin: 0 auto;
+            background: #227840;
+            border: 1.5px solid #227840;
+            border-radius: 6px;
+        }
+
+        .bt p {
+            font-size: 11px;
+            line-height: 19px;
+            margin-left: 30px;
+            letter-spacing: 0.275px;
+            color: #FFFFFF;
+
+        }
+
+        .btn {
+            height: 43px;
+            width: 150px;
+            background: #227840;
+            border: 1.5px solid #227840;
+            border-radius: 6px;
+        }
+
+        .btn p {
+            font-size: 10px;
+            position: relative;
+            bottom: 20px;
+
+            color: #FFFFFF;
+        }
+    </style>
+
 </head>
 
 <body>
 
+
+
+
+
     <div class="container">
 
+        <div class="col">
+            <h1>Preroll</h1>
+            <h6>View All 9 items</h6>
+            <div class="btn">
+                <p> SHOP PRE-ROLLS</p>
 
-        <div class="box">
-            <div class="box0">
-                <h1>Preroll</h1>
-                <p>View All 9 items</p>
-                <div class="btn1">
-                    <p>SHOP PRE - ROLLS</p>
-                </div>
             </div>
-            <div class="box1"><img src="images/img1.jpg" alt=""><p>Strawberry Banana <br> $36-$55</p></div>
-            <div class="box2"><img src="images/img2.jpg" alt=""><p>Milk Chocolate Bar 100mg <br>$15</p></div>
-            <div class="box3"><img src="images/img3.jpg" alt=""><p>Relief pen - 100 doses <br>$54</p></div>
-            <div class="box4"><img src="images/img4.jpg" alt=""><p>Hybrid Top Shelf 3.5 grams<br> $49</p></div>
-
         </div>
+        <div class="col"><img src="images/img1.jpg" alt="">
+            <p>Strawberry Banana <br> $36-$55</p>
+        </div>
+        <div class="col"><img src="images/img2.jpg" alt="">
+            <p>Milk Chocolate Bar 100mg <br>$15</p>
+        </div>
+        <div class="col"><img src="images/img3.jpg" alt="">
+            <p>Relief pen - 100 doses <br>$54.</p>
+        </div>
+        <div class="col"><img src="images/img4.jpg" alt="">
+            <p>Bybrid Top Shelf 3.5 grams<br> $49</p>
+        </div>
+
+
     </div>
-    <main>
-        <h1>Blog</h1>
-        <div class="cards">
-            <div class="card1"><img src="images/img1.jpg" alt="">
-                <p>Papa & Barkley back in stock along with many options!</p><button>Read More</button>
-            </div>
-            <div class="card2"><img src="images/img2.jpg" alt="">
-                <p>Papa & Barkley back in stock along with many options!</p><button>Read More</button>
-            </div>
-            <div class="card3"><img src="images/img3.jpg" alt="">
-                <p>Papa & Barkley back in stock along with many options!</p><button>Read More</button>
-            </div>
-            <div class="card4"><img src="images/img4.jpg" alt="">
-                <p>Papa & Barkley back in stock along with many options!</p><button>Read More</button>
-            </div>
 
+
+    <div class="main">
+
+        <div class="col"><img src="images/img1.jpg" alt="">
+            <p>Papa & Barkley back in stock along with many options! <button>Read More</button></p>
         </div>
-        <div class="btn">
-            <p>View More</p>
+        <div class="col"><img src="images/img2.jpg" alt="">
+            <p>Papa & Barkley back in stock along with many options!<button>Read More</button></p>
         </div>
-    </main>
+        <div class="col"><img src="images/img3.jpg" alt="">
+            <p>Papa & Barkley back in stock along with many options! <button>Read More</button></p>
+        </div>
+        <div class="col"><img src="images/img4.jpg" alt="">
+            <p>Papa & Barkley back in stock along with many options!<button>Read More</button></p>
+        </div>
+
+
+    </div>
+    <div class="bt">
+        <p>VIEW MORE</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
 
 </body>
 
