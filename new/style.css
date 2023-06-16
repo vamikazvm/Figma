@@ -1,6 +1,11 @@
+.mainbox{
+    height: 2000px;
+    width: 1500px;
+    margin: 0 auto;
+}
 #space{
-    width: 850px;
-    height: 548px;
+    width: 1351px;
+    height: 783px;
     margin: 0 auto;
     display: flex;
 
@@ -8,59 +13,58 @@
     
 }
 .item1 img{
-    width: 600px;
-    height: 548px;
+    width: 878.15px;
+    height: 783px;
    
 
 }
 .item2{
-    width: 250px;
-    height: 548px;
+    width: 472.5pxpx;
+    height: 783px;
     display: flex;
     flex-direction: column;
 }
 .item3 img{
-    width: 250px;
-    height: 274px;
+    width: 472.5px;
+    height: 391.5px;
   
 }
 .item4 img{
-    width: 250px;
-    height: 274px;
+    width: 472.5px;
+    height: 391.5px;
     position: relative;
     bottom: 5px;
     
 }
 
 #space1{
-    width: 850px;
-    height: 548px;
+    width: 1351px;
+    height: 783px;
     margin: 0 auto;
     display: flex; 
 }
 .item5 img{
-width: 425px;
-height: 548px;
+width:675.5px;
+height: 783px;
 }
 .item6 img{
-width: 425px;
-height: 548px;
-}
+    width:675.5px;
+    height: 783px;
+    }
 #space2{
-    width: 850px;
-    height: 548px; 
+    width: 1351px;
+    height: 783px; 
     display: flex;
     margin: 0 auto;
 }
 .item7 img{
-    width: 850px;
-    height: 548px; 
+    width: 1351px;
+    height: 783px;
 }
 .card {
 
     width: 231.89px;
     Height: 231.89px;
-   border: 2px solid black;
    margin-left: 26.11px;
     text-align: center;
 }
@@ -68,10 +72,14 @@ height: 548px;
 
 
 .container {
+    width: 1351px;
+    height: 444px;
     padding: 2px 16px;
     display: flex;
     justify-content: center;
    margin-top: 50px;
+   margin-left: 44px;
+   margin-right: 55.49px;
 }
 
 .card img {
@@ -104,29 +112,30 @@ height: 548px;
     
 }
 main{
-   margin: 20px;
-   padding: 20px;
+margin: 0 auto;
+    width: 1351px;
+    height: 783px;
+    position: relative;
+    top: 50px;
+    padding-left: 38px;
+    padding-right: 38px;
 }
 main h1 {
     text-align: center;
-    position: relative;
-    top: 30px;
     font-size: 33px;
 }
 
 .box {
+   
     display: flex;
     justify-content: center;
+  
 }
 
 .card1 {
-    border: 2px solid black;
     width: 300px;
     height: 370px;
-    margin-left: 38px;
     margin-right: 25px;
-    position: relative;
-    top: 96px;
 }
 
 .card1 img {
@@ -134,10 +143,8 @@ main h1 {
     height: 226px;
 }
 
-.cont {
-    text-align: left;
-    position: relative;
-
+.cont p{
+padding-left: 20px;
 }
 
 button {
@@ -161,7 +168,7 @@ button {
     width: 122px;
     margin: 0 auto;
     position: relative;
-    top: 188px;
+    top: 75px;
     background: #227840;
     border: 1.5px solid #227840;
     border-radius: 6px;
@@ -176,4 +183,6 @@ button {
 
 }
 
+
+       
 
