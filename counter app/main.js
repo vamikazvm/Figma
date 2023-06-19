@@ -7,7 +7,11 @@ add.addEventListener('click', () => {
   count.innerHTML++;
 })
 sub.addEventListener('click', () => {
-  count.innerHTML--;
+  count.innerHTML<0;
+
+  if (result < 0) {
+    result = 0;
+  }
 })
 reset.addEventListener('click', () => {
   count.innerHTML = 0;
