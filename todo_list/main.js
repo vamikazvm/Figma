@@ -13,11 +13,11 @@ window.addEventListener('load', () => {
     const task_div = document.createElement("div");
     task_div.classList.add("task");
     list.appendChild(task_div);
-    
+
     const task_content_div = document.createElement("div");
     task_content_div.classList.add("content");
     task_div.appendChild(task_content_div);
-    
+
     const task_input = document.createElement("input");
     task_input.classList.add("text");
     task_input.type = "text";
@@ -45,20 +45,22 @@ window.addEventListener('load', () => {
     task_actions_div.appendChild(task_completed_button);
     task_actions_div.appendChild(task_delete_button);
 
-    task_edit_botton.addEventListener('click', () => {
+     task_edit_botton.addEventListener('click', () => {
 
-      if (task_edit_button.innerText.toLowerCase() == "edit") {
+      if (task_edit_botton.innerText.toLowerCase() == "edit") {
         task_input.removeAttribute("readonly");
         task_input.focus();
-        task_edit_button.innerText = "Save";
+        task_edit_botton.innerText = "Save";
         task_input.style.textDecoration = "none"
       } else {
         task_input.setAttribute("readonly", "readonly");
-        task_edit_button.innerText = "Edit"; }
+        task_edit_botton.innerText = "Edit";
+      }
     });
-      task_delete_button.addEventListener('click', () => {
+    task_delete_button.addEventListener('click', () => {
       if (confirm("Are you sure you want to delete this task?")) {
-        list.removeChild(task_div); }
+        list.removeChild(task_div);
+      }
     })
       task_completed_button.addEventListener('click', () => {
       task_input.style.textDecoration = "line-through";
